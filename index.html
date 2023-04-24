@@ -4,32 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
+    <style>
+    html{scroll-behavior: smooth;}
+    body {background-color: rgb(129, 136, 121);}
+    .container{display: flex;
+        justify-content: space-around;
+    }
+    h1{
+        text-align: center;
+    }
+    .header img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+    .header h1{
+        background-color: rgb(131, 136, 139);
+    }
+    .footer{
+        text-align: center;
+    }
+    .container-item{
+        background-color: aliceblue;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    
+    
+
+
+    </style>
 </head>
 <body>
-    <h1>Henok Bekele's Portfolio</h1> 
-    <img src="./assets/images/headshot.jpg" alt="Henok Bekele" />
-    <h2>Im a Software Developer</h2>
+    <div class="header">
+        <h1>Henok Bekele's Portfolio</h1> 
+        <img src="./assets/images/headshot.jpg" alt="Henok Bekele" />
+        <h2>I'm a Software Developer</h2>
+    </div>
    <hr/>
    <h2>Projects:</h2>
-   <h3><a href="https://habekele.github.io/todoList-react-firebase/">To do List</a></h3>
-   <img height="250" src="./assets/images/ToDoList.png" alt="ToDoList"/>
-   <h3><a href="https://habekele.github.io/Aspire_Studio/">Aspire Studio</a></h3>
-   <img height="250" src="./assets/images/AspireStudio.jpg" alt="Aspire_Studio"/>
+   <div class="container">
+        <div class="container-item container-item-1">
+            <h3><a href="https://habekele.github.io/todoList-react-firebase/">To do List</a></h3>
+            <img height="250" src="./assets/images/ToDoList.png" alt="ToDoList"/>
+        </div>
+        <div class="container-item container-item-2">
+            <h3><a href="https://habekele.github.io/Aspire_Studio/">Aspire Studio</a></h3>
+            <img height="250" src="./assets/images/AspireStudio.jpg" alt="Aspire_Studio"/>
+        </div>
+    </div>
     <hr/>
+    <div class="footer">
     <a href="./public/about.html">About Me</a>
     <a href="./public/contact.html">Contact Me</a>
+    </div>
 </body>
 </html>
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
