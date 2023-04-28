@@ -11,6 +11,10 @@ body {background-color:#3F4E4F;}
 .header h1{
     font-weight: 600;
     font-size: 55pt;
+    text-align: center;
+}
+.header h2{
+    text-align: center;
 }
 
 .header img{
